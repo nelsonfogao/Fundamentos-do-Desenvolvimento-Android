@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pergunta6">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/labelPergunta6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6- Como está distribuido o seu patrimônio?"
+            android:textColor="#673AB7"
+            android:textSize="30sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupP6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/radioButtonP6A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meu patrimônio não está aplicado ou está todo aplicado em renda fixa e/ou imóveis" />
+
+            <RadioButton
+                android:id="@+id/radioButtonP6B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menos de 25% em renda variável e o restante em renda fixa e/ou imóveis" />
+
+            <RadioButton
+                android:id="@+id/radioButtonP6C"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entre 25,01 e 50% aplicado em renda variável e o restante em renda fixa e/ou imóveis" />
+
+            <RadioButton
+                android:id="@+id/radioButtonP6D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Acima de 50% em renda variável" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonP6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Próximo" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

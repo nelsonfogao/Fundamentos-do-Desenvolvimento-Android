@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pergunta2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/labelPergunta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2-Qual o objetivo desse investimento?"
+            android:textColor="#673AB7"
+            android:textSize="30sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupP2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/radioButtonP2A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Preservação do capital para não perder valor ao longo do tempo, assumindo baixos riscos de perdas" />
+
+            <RadioButton
+                android:id="@+id/radioButtonP2B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aumento gradual do capital ao longo do tempo, assumindo riscos moderados" />
+
+            <RadioButton
+                android:id="@+id/radioButtonP2C"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aumento do capital acima da taxa de retorno média do mercado, mesmo que isso implique assumir riscos de perdas elevadas" />
+
+            <RadioButton
+                android:id="@+id/radioButtonP2D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Obter no curto prazo retornos elevados e significativamente acima da taxa de retorno média do mercado, assumindo riscos elevados" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonP2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Próximo" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pergunta7">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/labelPergunta7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7- Em relação as aplicações e rendimentos, em qual dessas situações você  se enquadra?"
+            android:textColor="#673AB7"
+            android:textSize="30sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupP7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/radioButtonP7A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conto com o rendimento dessas aplicações para complementar minha renda mensal " />
+
+            <RadioButton
+                android:id="@+id/radioButtonP7B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eventualmente posso resgatar parte das aplicações para fazer frente aos meus gastos. Contudo, não tenho intenção de resgatar no curto prazo e pretendo fazer aplicações regulares" />
+
+            <RadioButton
+                android:id="@+id/radioButtonP7C"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Não tenho intenção de resgatar no curto prazo, mas não pretendo realizar novas aplicações" />
+
+            <RadioButton
+                android:id="@+id/radioButtonP7D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Não tenho intenção de resgatar no curto prazo e ainda pretendo fazer aplicações regulares" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonP7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Próximo" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
