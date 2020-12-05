@@ -1,4 +1,4 @@
-# tp 03 - Fundamentos do Desenvolvimento Android
+# Tp 03 - Fundamentos do Desenvolvimento Android
 
 Neste TP, você deverá fazer um aplicativo para Análise de perfil de investidor. Quando uma pessoa deseja realizar investimentos por intermédio de um banco ou uma corretora, é comum que ela tenha que preencher um questionário para avaliar o seu perfil de investidor, de modo que ela possa ser orientada para investimentos mais adequados ao seu momento de vida, patrimônio e propensão/tolerância ao risco. O Banco Paulista disponibilizou o seu questionário e metodologia online, por isso, nós o utilizaremos como base para este trabalho:
 
